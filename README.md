@@ -38,7 +38,7 @@ When executed, the program will create / write to a file called output.txt, cont
 **max_ram_usage:** the maximum RAM usage in the lifetime of the process as measured by the ru_maxrss attribute in the resource module, reported in megabytes
 
 
-U can use the **path_to_goal** output to solve the 8-puzzle.
+U can use the **steps** in **path_to_goal** output to solve the 8-puzzle.
 
 where an arbitrary choice must be made, we always visit child nodes in the "UDLR" order; that is,
  [‘Up’, ‘Down’, ‘Left’, ‘Right’] in that exact order. 
